@@ -85,8 +85,8 @@ def plot_variation_chart(data_sorted, year1, year2):
 
 
 # Load data and initializations
-    data_filepath = 'consommation-regionale-gnc.csv'
-    shapefile_path = 'regions-20180101.shp'
+    data_filepath = "Project/consommation-regionale-gnc.csv"
+    shapefile_path = 'Project/regions-20180101.shp'
     
 
 def main(data_filepath, shapefile_path):
