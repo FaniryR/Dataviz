@@ -1,0 +1,8 @@
+st.altair_chart(
+st.empty(
+st.image(
+st.pydeck_chart(
+st.pyplot(
+st.subheader(
+st.title(
+st.write(
