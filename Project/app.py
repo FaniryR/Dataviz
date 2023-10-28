@@ -284,6 +284,6 @@ N'hésitez pas à utiliser les filtres pour obtenir des informations plus détai
 
 
 if __name__ == '__main__':
-    data_filepath = "C:\\Users\\RAOBELINA Faniry\\Desktop\\Efrei\\M1\\Data Visualisation\\Project\\consommation-regionale-gnc.csv"
-    shapefile_path = "C:\\Users\\RAOBELINA Faniry\\Desktop\\Efrei\\M1\\Data Visualisation\\Project\\regions-20180101.shp"
+    data_filepath = "Project/consommation-regionale-gnc.csv"
+    shapefile_path = "Project/regions-20180101.shp"
 main(data_filepath, shapefile_path)
