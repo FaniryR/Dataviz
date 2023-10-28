@@ -8,8 +8,8 @@ import bar_chart_race as bcr
 
 
 # Load data and initializations
-data_filepath = "Project\\consommation-regionale-gnc.csv"
-shapefile_path = "Project\\regions-20180101.shp"
+data_filepath = "data/consommation-regionale-gnc.csv"
+shapefile_path = "data/regions-20180101.shp"
     
 
 def load_and_prepare_data(filepath, delimiter=';'):
