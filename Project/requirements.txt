@@ -1,0 +1,7 @@
+streamlit
+pandas
+geopandas
+matplotlib
+altair
+pydeck
+bar_chart_race
