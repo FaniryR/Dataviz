@@ -7,6 +7,10 @@ import pydeck as pdk
 import bar_chart_race as bcr
 
 
+# Load data and initializations
+    data_filepath = "Project/consommation-regionale-gnc.csv"
+    shapefile_path = 'Project/regions-20180101.shp'
+
 def load_and_prepare_data(filepath, delimiter=';'):
     df = pd.read_csv(filepath, delimiter=delimiter)
     df[['latitude', 'longitude']] = df['centroid'].str.split(',', expand=True)
@@ -84,10 +88,7 @@ def plot_variation_chart(data_sorted, year1, year2):
     st.altair_chart(variation_chart, use_container_width=True)
 
 
-# Load data and initializations
-    data_filepath = "Project/consommation-regionale-gnc.csv"
-    shapefile_path = 'Project/regions-20180101.shp'
-    
+
 
 def main(data_filepath, shapefile_path):
     
